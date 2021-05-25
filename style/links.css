@@ -1,0 +1,15 @@
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  color: var(--text-color-white);
+  background-color: rgb(11, 112, 119);
+  padding: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.link:hover {
+  background-color: rgb(8, 83, 88);
+}

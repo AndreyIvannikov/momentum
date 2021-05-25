@@ -1,0 +1,31 @@
+.index-page .main {
+  background-image: url("../img/coffe.jpg");
+}
+.intro__title-name {
+  padding-bottom: 5px;
+  padding-right: 40px;
+  border: none;
+  outline: none;
+  position: relative;
+}
+.intro__title-name::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/checkbox-edit.png");
+  background-size: cover;
+}
+
+.active-field {
+  width: 100px;
+  padding-left: 30px;
+  border-bottom: 2px solid #000;
+}
+
+.intro__title {
+  margin-bottom: 40px;
+}
